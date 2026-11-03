@@ -1,0 +1,106 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+# ====================================
+# Spring Boot 설정 파일 (민감정보)
+# ====================================
+application.yml
+application.yaml
+application.properties
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# 설정 예시 파일은 Git에 포함
+!application-example.yml
+
+# 환경 변수
+.env
+.env.*
+!.env.example
+
+# ====================================
+# Gradle 빌드 결과물
+# ====================================
+.gradle/
+build/
+out/
+
+# ====================================
+# IntelliJ IDEA
+# ====================================
+.idea/
+*.iml
+
+# ====================================
+# OS 자동 생성 파일
+# ====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ====================================
+# 로그 파일
+# ====================================
+*.log
+logs/
+
+# ====================================
+# 로컬 DB 파일 (H2 등)
+# ====================================
+*.mv.db
+*.trace.db
+*.lock.db
+
+# ====================================
+# 인증서 및 비밀키
+# ====================================
+*.pem
+*.p12
+*.pfx
+*.jks
+*.key
+
+# ====================================
+# 임시 파일
+# ====================================
+*.tmp
+*.temp
+*.swp
+*~
