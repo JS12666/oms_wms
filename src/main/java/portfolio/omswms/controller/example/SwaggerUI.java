@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-// 폴더 변경
-
 /*
  * ============================================================
  * Swagger UI 어노테이션 정리
