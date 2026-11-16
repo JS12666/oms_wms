@@ -1,4 +1,4 @@
-package portfolio.omswms.example;
+package portfolio.omswms.controller.example;
 
 import io.swagger.v3.oas.annotations.Hidden;
 import io.swagger.v3.oas.annotations.Operation;
