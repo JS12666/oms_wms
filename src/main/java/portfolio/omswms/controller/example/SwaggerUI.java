@@ -1,4 +1,4 @@
-package portfolio.omswms.example;
+package portfolio.omswms.controller.example;
 
 import io.swagger.v3.oas.annotations.Hidden;
 import io.swagger.v3.oas.annotations.Operation;
@@ -17,6 +17,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
+// 폴더 변경
 
 /*
  * ============================================================
